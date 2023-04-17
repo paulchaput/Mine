@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Try-On</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
+    <a-marker preset="hiro">
+      <a-entity id="sunglasses" gltf-model="url(path/to/sunglasses.glb)" scale="0.2 0.2 0.2"></a-entity>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
+</body>
+</html>
