@@ -1,0 +1,163 @@
+{
+  "sections": {
+    "125c1859-a201-40e6-918e-00fec71eeb51": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14419455213617__125c1859-a201-40e6-918e-00fec71eeb51-16769203384bcc1cb8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "2X1 TODOS NUESTROS PRODUCTOS",
+            "heading_size": "h2"
+          }
+        },
+        "template--14419455213617__125c1859-a201-40e6-918e-00fec71eeb51-16769203384bcc1cb8-1": {
+          "type": "text",
+          "settings": {
+            "text": "CODIGO DE DESCUENTO : \"CADDIES2X1\"",
+            "text_style": "body"
+          }
+        },
+        "template--14419455213617__125c1859-a201-40e6-918e-00fec71eeb51-16769203384bcc1cb8-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP",
+            "button_link_1": "shopify:\/\/collections\/best-sellers",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14419455213617__125c1859-a201-40e6-918e-00fec71eeb51-16769203384bcc1cb8-0",
+        "template--14419455213617__125c1859-a201-40e6-918e-00fec71eeb51-16769203384bcc1cb8-1",
+        "template--14419455213617__125c1859-a201-40e6-918e-00fec71eeb51-16769203384bcc1cb8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img20230219_18144073.jpg",
+        "image_2": "shopify:\/\/shop_images\/Tezza-1552_0911da30-0176-4903-8709-1ac041a1ddcf.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introduce your featured collection<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "best-sellers",
+        "products_to_show": 25,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collage-1": {
+      "type": "collage",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img20230220_11302600.jpg"
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers"
+          }
+        },
+        "d0660e52-e9a3-4c28-9c9e-c15c019c647d": {
+          "type": "collection",
+          "settings": {
+            "collection": "spring"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "collection",
+        "d0660e52-e9a3-4c28-9c9e-c15c019c647d"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 44
+      }
+    },
+    "bd2d519c-cefa-49d5-89fb-8742dae3d2d2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .banner-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n  }\n\n  .banner-2x1 {\n    display: inline-block;\n    padding: 20px 20px;\n    font-size: 20px;\n    font-weight: bold;\n    color: #000;\n    background-color: #DEFF7E;\n    border: 3px solid #000;\n    text-align: center;\n    animation: bannerAnimation 3s infinite linear;\n    text-decoration: none; \/* Remove the underline from the link *\/\n    transition: all 0.3s ease; \/* Add a smooth transition to the button *\/\n  }\n\n  .banner-2x1 span {\n    color: #FFF;\n    -webkit-text-stroke-width: 1px;\n    -webkit-text-stroke-color: #000;\n  }\n\n  .banner-2x1:hover {\n    animation: bannerAnimation 3s infinite linear, strobeEffect 0.2s infinite alternate; \/* Add a strobe effect when hovered *\/\n  }\n\n  @keyframes bannerAnimation {\n    0% {\n      transform: rotate(0deg);\n    }\n    25% {\n      transform: rotate(15deg);\n    }\n    50% {\n      transform: rotate(-15deg);\n    }\n    75% {\n      transform: rotate(15deg);\n    }\n    100% {\n      transform: rotate(0deg);\n    }\n  }\n\n  @keyframes strobeEffect {\n    0% {\n      background-color: #DEFF7E;\n      border-color: #000;\n    }\n    100% {\n      background-color: #000;\n      border-color: #DEFF7E;\n    }\n  }\n<\/style>\n\n<div class=\"banner-container\">\n  <a href=\"https:\/\/caddies.mx\/collections\/best-sellers\/BS\" class=\"banner-2x1\">\n    <span>CODIGO : CADDIES2X1<\/span>\n  <\/a>\n<\/div>",
+        "color_scheme": "inverse",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+
+
+  
+  
+  "order": [
+    "125c1859-a201-40e6-918e-00fec71eeb51",
+    "rich-text-1",
+    "featured-collection",
+    "collage-1",
+    "bd2d519c-cefa-49d5-89fb-8742dae3d2d2"
+  ]
+
+  
+}
